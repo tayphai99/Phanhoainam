@@ -1,0 +1,84 @@
+#myBtnContainer {
+  padding: 10px;
+}
+.btn {
+  border:none;
+  outline:none;
+  cursor:pointer;
+  background:none;
+  color:#fff;
+  padding:0;
+  margin:2px;
+}
+.btn img {
+  width:43px;
+  height:43px;
+  border-radius:5px;
+}
+.fo {
+  width:100%;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  display:none;
+  margin-bottom:60px;
+  box-shadow:0 0 2px #000;
+  background-color:#444;
+} 
+.show {
+  display:block;
+}
+.idacc {
+  border-bottom:1px solid #555;
+  padding:10px 20px;
+}
+.box1end img {width: 100%;}
+.idacc a {color:orange;}
+.box1 {
+  display:flex;
+  padding:10px 20px;
+}
+.text-1{
+  margin:0;
+  padding-right:7px;
+  width:29px;
+  height:114px;
+}
+.text-2{
+  margin:0;
+  padding-right:7px;
+  width:29px;
+  height:78px;
+}
+.box2 {
+  display:flex;
+}
+.imgacc {
+  margin:0;
+  padding:0;
+}
+.imgacc img {
+  width:85px;
+  padding:0 2px;
+  border-radius: 4px;
+} 
+
+
+@media screen and (max-width:480px) {
+  .fo {
+    margin-bottom:40px;
+  }
+.text-1 {
+    width: 20px;
+    height: 80px;
+}
+.text-2 {
+    width: 20px;
+    height: 80px;
+}
+  .imgacc img {
+    width:54px;
+    padding:0 2px;
+    border-radius: 2px;
+  }  
+}
