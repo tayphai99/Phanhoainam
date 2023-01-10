@@ -183,6 +183,26 @@ li {margin-bottom: 5px;}
   right: 45px;
   font-size: 60px;
 }
+
+
+
+.gog-top-link {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 16px;
+    display: inline-block;
+}
+.text-banner { 
+    font-size: 18px;
+    line-height: 30px;
+	padding: 25px;
+}
+
+
+
+
+
+
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -206,4 +226,11 @@ li {margin-bottom: 5px;}
 h1 {font-size: 1.5em;margin: 10px 0;}
 h2 {margin: 5px 0;font-size: 1em;}
 
+
+.gog-top-link {
+    font-size: 16px;}
+.card {
+    width: 80%;
+    height: auto;
+    max-width: 500px;}
 }
