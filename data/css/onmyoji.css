@@ -1,0 +1,20 @@
+
+/* onmyoji */
+.onmyoji-content-post {max-width: 700px;}
+.onmyoji-c0{background: #c7782c;padding: 0px 8px;border-radius: 2px;display: inline-table;}
+.onmyoji-c1{background: #4a0c19;padding: 0px 8px;border-radius: 2px;display: inline-table;}
+.onmyoji-c2{background: #075390;padding: 0px 8px;border-radius: 2px;display: inline-table;}
+.onmyoji-c3{background: #222;padding: 0px 8px;border-radius: 2px;display: inline-table;}
+.onmyoji-box-c1{background: #4a0c19;padding: 20px;}
+.onmyoji-box-c2{background: #075390;padding: 20px;}
+.onmyoji-box-c3{background: #222;padding: 20px;}
+.onmyoji-shiki{text-align: center;}
+.onmyoji-Skill-1{padding: 50px 0;}
+.onmyoji-Skill-2{padding: 50px 0;}
+.onmyoji-Skill-3{padding: 50px 0 0 0;}
+
+/* max-width:480px */
+@media screen and (max-width:480px) {
+
+
+}

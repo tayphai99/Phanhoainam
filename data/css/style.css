@@ -1,0 +1,209 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+input { /* 1 */
+  overflow: visible;
+}
+button,
+select { /* 1 */
+  text-transform: none;
+}
+/* ------------------------------------------ */
+body {
+  background-color: #2d333f;
+  color: #ddd;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+a {text-decoration: none;color:orange;}
+p {padding:20px 0;margin: 0;}
+h1 {padding:20px 0;margin: 0;}
+h2 {padding:10px 0;margin: 0; font-size: 1.2em;}
+li {margin-bottom: 5px;}
+
+.gog-top { 
+    padding: 10px;
+    box-shadow: 0 0 2px #000;
+    margin-bottom: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background: #2d333f;
+}
+.gog-top a {	
+
+    font-weight: bold;
+	color:#ddd;
+	padding: 0 10px;
+} 
+.gog-top p {	
+	padding: 10px; 
+} 
+.gog-top-logo{
+	font-size:25px;
+	cursor:pointer;
+}
+.gog-top-more{
+	font-size: 23px;
+	margin-left: 12px;
+}
+.gog-content {
+    width: 100%;
+    margin: 0 auto;  
+}
+.gog-container{
+	padding:30px;
+	margin-bottom:20px;
+}
+.gog-style-1 {
+	background-color: #444;
+	box-shadow: 0 0 2px #222;
+	border-radius: 0px;
+	margin: 5px;
+	line-height: 23px;
+}
+.gog-style-1 img{width:100%;max-width:700px;}
+.gog-style-1 hr{border: 0;border-top: 1px solid #555;margin: 60px auto;width: 70%;}
+
+.gog-flex{
+	display: flex;
+    flex-wrap: wrap;
+}
+.gog-jc-center{
+	justify-content: center;
+}
+.gog-ta-center{
+	text-align: center;
+}
+.gog-mb-l{margin-bottom:50px;}
+.footer  {
+    font-size: 14px;
+}
+.footer a {
+    color: #ccc;
+    padding: 0px 10px;
+}
+.gog-scroll-top {
+  position:fixed;
+  bottom:5px;
+  z-index:100;
+  right:5px;
+}
+.gog-scroll-top img {
+  box-shadow:0 8px 16px 0 rgb(0 0 0 / 50%);
+  margin:2px;
+  border:solid 1px #000;
+}
+ 
+/* card */
+.card {
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0px 2px #000;
+	border-bottom: solid 2px #000;
+	transition: 0.3s;
+	line-height: 0;
+    width: 80%;
+    max-width: 250px;
+}
+.card:hover {
+    box-shadow: 1px 10px 30px #000;
+}
+.card img { width: 100%;}
+.card a {color:#222;}
+
+
+
+
+/* menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+/* filter */
+#myBtnContainer {margin-bottom: 20px;}
+.btn {border: none;outline: none;cursor: pointer;background: #333;color: #fff;padding: 0.7em;margin: 5px auto;border-radius: 3px;}
+.btn:hover{background:#3174c7}
+.fo {display:none;} 
+.show {display:block;}
+
+/* max-width:480px */
+@media screen and (max-width:480px) {
+.gog-container{padding:15px;margin-bottom:20px;}
+h1 {font-size: 1.5em;margin: 10px 0;}
+h2 {margin: 5px 0;font-size: 1em;}
+
+}
