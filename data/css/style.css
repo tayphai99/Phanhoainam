@@ -79,6 +79,7 @@ li {margin-bottom: 5px;}
 .gog-content {
     width: 100%;
     margin: 0 auto;  
+ 
 }
 .gog-container{
 	padding:30px;
@@ -129,11 +130,12 @@ li {margin-bottom: 5px;}
     margin: 10px;
     background-color: #fff;
     box-shadow: 0 0px 2px #000;
-	border-bottom: solid 2px #000;
-	transition: 0.3s;
-	line-height: 0;
-    width: 80%;
-    max-width: 250px;
+    border-bottom: solid 2px #000;
+    transition: 0.3s;
+    line-height: 0;
+    width: 245px;
+    height: 325px;
+	max-width: 500px;
 }
 .card:hover {
     box-shadow: 1px 10px 30px #000;
