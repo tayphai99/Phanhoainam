@@ -47,7 +47,7 @@ body {
   font-size: 15px;
 }
 a {text-decoration: none;color:orange;}
-p {padding:20px 0;margin: 0;}
+p {padding: 20px 10px;;margin: 0;}
 h1 {padding:20px 0;margin: 0;}
 h2 {padding:10px 0;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
@@ -63,7 +63,7 @@ li {margin-bottom: 5px;}
     color: #ddd;
     font-size: 18px;
     cursor: pointer;
-    margin: 10px 30px;
+    margin: 10px 15px 10px 30px;
     display: inline-block;
 } 
 .phn-container{
@@ -94,13 +94,32 @@ li {margin-bottom: 5px;}
     border-bottom: solid 1px #000;
     transition: 0.3s; 
     width: 220px;
+	background: #333;
 }
 .card-donate img { width: 100%;}
+
+.card-contact {
+    margin: 10px; 
+    box-shadow: 0 0px 2px #000;
+    border-bottom: solid 1px #000;
+    transition: 0.3s; 
+    width: 220px;
+	background: #333;
+}
+.card-contact img {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
 .link-hover:hover {box-shadow: 1px 10px 30px #000;}
+
+
 
  
 /* max-width:480px */
 @media screen and (max-width:480px) {
 .card-avatar {width: 85%;max-width: 500px;}
-.phn-menu a {margin: 10px 15px;}
+.phn-menu a {margin: 10px 10px 10px 15px;}
 }
