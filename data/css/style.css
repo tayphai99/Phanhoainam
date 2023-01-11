@@ -81,7 +81,7 @@ li {margin-bottom: 5px;}
 	justify-content: center;
 }
 .card-avatar {
-    margin: 10px;
+    margin: 12px;
     box-shadow: 0 0px 2px #000;
     line-height: 0;
     width: 250px;
@@ -89,7 +89,7 @@ li {margin-bottom: 5px;}
 .card-avatar img { width: 100%;}
  
 .card-donate {
-    margin: 10px; 
+    margin: 12px; 
     box-shadow: 0 0px 2px #000;
     border-bottom: solid 1px #000;
     transition: 0.3s; 
@@ -99,7 +99,7 @@ li {margin-bottom: 5px;}
 .card-donate img { width: 100%;}
 
 .card-contact {
-    margin: 10px; 
+    margin: 12px; 
     box-shadow: 0 0px 2px #000;
     border-bottom: solid 1px #000;
     transition: 0.3s; 
