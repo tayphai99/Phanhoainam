@@ -102,4 +102,5 @@ li {margin-bottom: 5px;}
 /* max-width:480px */
 @media screen and (max-width:480px) {
 .card-avatar {width: 85%;max-width: 500px;}
+.phn-menu a {margin: 10px 15px;}
 }
