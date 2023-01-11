@@ -1,5 +1,5 @@
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1.3; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
@@ -44,6 +44,7 @@ body {
   background-color: #2d333f;
   color: #ddd;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 15px;
 }
 a {text-decoration: none;color:orange;}
 p {padding:20px 0;margin: 0;}
@@ -83,7 +84,7 @@ li {margin-bottom: 5px;}
     margin: 10px;
     box-shadow: 0 0px 2px #000;
     line-height: 0;
-    width: 245px;
+    width: 250px;
 }
 .card-avatar img { width: 100%;}
  
@@ -92,7 +93,7 @@ li {margin-bottom: 5px;}
     box-shadow: 0 0px 2px #000;
     border-bottom: solid 1px #000;
     transition: 0.3s; 
-    width: 245px;
+    width: 220px;
 }
 .card-donate img { width: 100%;}
 .link-hover:hover {box-shadow: 1px 10px 30px #000;}
@@ -100,5 +101,5 @@ li {margin-bottom: 5px;}
  
 /* max-width:480px */
 @media screen and (max-width:480px) {
-
+.card-avatar {width: 85%;max-width: 500px;}
 }
