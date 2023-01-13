@@ -53,7 +53,7 @@ h2 {padding:10px 15px;margin: 0; font-size: 1.2em;}
 .link-ebook h2 {padding:10px 30px;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
 li {margin-bottom: 5px;padding-right: 10px;}
-
+ul {padding-inline-start: 50px;}
 
 .phn-menu {
     box-shadow: 0 0 2px #000;
@@ -123,9 +123,15 @@ li {margin-bottom: 5px;padding-right: 10px;}
     margin-top: 20px;
 }
 .link-hover:hover {box-shadow: 1px 10px 30px #000;transition: 0.3s;}
+
+.link-ebook {
+	background: #444;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 2px #000;
+    border-bottom: solid 1px #000;}
 .link-ebook a {color:#ddd;}
-
-
 
 /* filter */
 #myBtnContainer {margin-bottom: 20px;}
