@@ -49,7 +49,8 @@ body {
 a {text-decoration: none;color:orange;}
 p {padding: 20px 15px;;margin: 0;}
 h1 {padding:20px 0;margin: 0;}
-h2 {padding:10px 30px;margin: 0; font-size: 1.2em;}
+h2 {padding:10px 15px;margin: 0; font-size: 1.2em;}
+.link-ebook h2 {padding:10px 30px;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
 li {margin-bottom: 5px;padding-right: 10px;}
 
@@ -191,7 +192,7 @@ li {margin-bottom: 5px;padding-right: 10px;}
 .card-avatar {width: auto;max-width: 500px;}
 .phn-menu a {margin: 10px 10px 10px 15px;}
 .phn-container {padding: 10px;}
-h2 {padding:10px 15px;margin: 0; font-size: 1.2em;}
+.link-ebook h2 {padding:10px 15px;margin: 0; font-size: 1.2em;}
 
 /* onmyoji global */
 .shiki-card {width: 70px;margin: 10px 5px;color: #fff;font-size:13px;line-height:15px;}
