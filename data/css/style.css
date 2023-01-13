@@ -190,7 +190,7 @@ li {margin-bottom: 5px;}
 @media screen and (max-width:480px) {
 .card-avatar {width: auto;max-width: 500px;}
 .phn-menu a {margin: 10px 10px 10px 15px;}
-
+.phn-container {padding: 10px;}
 
 /* onmyoji global */
 .shiki-card {width: 70px;margin: 10px 5px;color: #fff;font-size:13px;line-height:15px;}
