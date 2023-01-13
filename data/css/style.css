@@ -51,7 +51,7 @@ p {padding: 20px 15px;;margin: 0;}
 h1 {padding:20px 0;margin: 0;}
 h2 {padding:10px 0;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
-li {margin-bottom: 5px;}
+li {margin-bottom: 5px;padding-right: 10px;}
 
 
 .phn-menu {
@@ -162,14 +162,13 @@ li {margin-bottom: 5px;}
 .onmyoji-box-c2{background: #075390;padding: 20px;}
 .onmyoji-box-c3{background: #222;padding: 20px;}
 .onmyoji-shiki{text-align: center;}
-.onmyoji-Skill-1{padding: 50px 0;}
-.onmyoji-Skill-2{padding: 50px 0;}
-.onmyoji-Skill-3{padding: 50px 0 0 0;}
+.onmyoji-Skill-1{padding: 30px 0;}
+.onmyoji-Skill-2{padding: 30px 0;}
+.onmyoji-Skill-3{padding: 30px 0 0 0;}
  
 .onmyoji-style-1 {background-color: #444;}
 .onmyoji-style-1 img {width: 100%;max-width: 900px;}
-.onmyoji-style-1 p {padding: 20px;}
-.onmyoji-style-1 li {margin-left: 30px;}
+.onmyoji-style-1 p {padding: 30px;}
 .onmyoji-content-post {
     max-width: 900px;
     margin: 0 auto;
@@ -195,4 +194,5 @@ li {margin-bottom: 5px;}
 
 /* onmyoji global */
 .shiki-card {width: 70px;margin: 10px 5px;color: #fff;font-size:13px;line-height:15px;}
+.onmyoji-style-1 p {padding: 15px;}
 }
