@@ -47,7 +47,7 @@ body {
   font-size: 15px;
 }
 a {text-decoration: none;color:orange;}
-p {padding: 20px 10px;;margin: 0;}
+p {padding: 20px 15px;;margin: 0;}
 h1 {padding:20px 0;margin: 0;}
 h2 {padding:10px 0;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
@@ -98,6 +98,17 @@ li {margin-bottom: 5px;}
 }
 .card-donate img { width: 100%;}
 
+.card-ebook {
+    margin: 12px; 
+    box-shadow: 0 0px 2px #000;
+    border-bottom: solid 1px #000;
+    width: 220px;
+	background: #333;
+}
+.card-ebook a {color:#ddd;}
+.card-ebook img { width: 100%;}
+.card-ebook:hover {box-shadow: 1px 10px 30px #000;transition: 0.3s;}
+
 .card-contact {
     margin: 12px; 
     box-shadow: 0 0px 2px #000;
@@ -110,10 +121,38 @@ li {margin-bottom: 5px;}
     border-radius: 50%;
     margin-top: 20px;
 }
-
-
 .link-hover:hover {box-shadow: 1px 10px 30px #000;transition: 0.3s;}
+.gray {filter: grayscale(100%);}
 
+
+
+/* filter */
+#myBtnContainer {margin-bottom: 20px;}
+.btn {border: none;outline: none;cursor: pointer;background: #222;color: #fff;padding: 0.7em;margin: 5px auto;border-radius: 3px;}
+.btn:hover{background:#3174c7}
+.fo {display:none;} 
+.show {display:block;}
+
+
+
+
+/* onmyoji global */
+.card-onmyoji {
+    margin: 12px; 
+    box-shadow: 0 0px 2px #000;
+    border-bottom: solid 1px #000;
+    width: 220px;
+	background: #333;
+}
+.card-onmyoji a {color:#ddd;}
+.card-onmyoji img { width: 100%;}
+.card-onmyoji:hover {box-shadow: 1px 10px 30px #000;transition: 0.3s;}
+
+.shiki-card {width: 82px;margin: 10px;color: #fff;font-size: 14px;line-height:18px;}
+.shiki-card a {color:#fff;}
+.shiki-card a:hover {color: orange;}
+.shiki-card img { width: 100%;}
+.shiki-card p {padding: 0;text-align: center;}
 
 
  
@@ -121,4 +160,8 @@ li {margin-bottom: 5px;}
 @media screen and (max-width:480px) {
 .card-avatar {width: auto;max-width: 500px;}
 .phn-menu a {margin: 10px 10px 10px 15px;}
+
+
+/* onmyoji global */
+.shiki-card {width: 70px;margin: 10px 5px;color: #fff;font-size:13px;line-height:15px;}
 }
