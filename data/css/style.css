@@ -154,7 +154,6 @@ li {margin-bottom: 5px;}
 .shiki-card p {padding: 0;text-align: center;}
 
 /* onmyoji global page shiki */
-.onmyoji-content-post {max-width: 700px;}
 .onmyoji-c0{background: #c7782c;padding: 0px 8px;border-radius: 2px;display: inline-table;}
 .onmyoji-c1{background: #4a0c19;padding: 0px 8px;border-radius: 2px;display: inline-table;}
 .onmyoji-c2{background: #075390;padding: 0px 8px;border-radius: 2px;display: inline-table;}
@@ -169,6 +168,8 @@ li {margin-bottom: 5px;}
  
 .onmyoji-style-1 {background-color: #444;}
 .onmyoji-style-1 img {width: 100%;max-width: 900px;}
+.onmyoji-style-1 p {padding: 20px;}
+.onmyoji-style-1 li {margin-left: 30px;}
 .onmyoji-content-post {
     max-width: 900px;
     margin: 0 auto;
