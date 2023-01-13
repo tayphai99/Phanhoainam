@@ -167,6 +167,24 @@ li {margin-bottom: 5px;}
 .onmyoji-Skill-2{padding: 50px 0;}
 .onmyoji-Skill-3{padding: 50px 0 0 0;}
  
+.onmyoji-style-1 {
+    background-color: #444;
+    box-shadow: 0 0 2px #222;
+    border-radius: 0px;
+    margin: 5px;
+    line-height: 23px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 /* max-width:480px */
 @media screen and (max-width:480px) {
 .card-avatar {width: auto;max-width: 500px;}
