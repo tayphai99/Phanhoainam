@@ -132,7 +132,7 @@ ul {padding-inline-start: 50px;}
     box-shadow: 0 0px 2px #000;
     border-bottom: solid 1px #000;}
 .link-ebook a {color:#ddd;}
-.link-ebook:hover {background: #555;} 
+ 
 /* filter */
 #myBtnContainer {margin-bottom: 20px;}
 .btn {border: none;outline: none;cursor: pointer;background: #222;color: #fff;padding: 0.7em;margin: 5px auto;border-radius: 3px;}
