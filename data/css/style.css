@@ -122,7 +122,7 @@ ul {padding-inline-start: 50px;}
     border-radius: 50%;
     margin-top: 20px;
 }
-.link-hover:hover {box-shadow: 1px 10px 30px #000;transition: 0.3s;}
+.link-hover:hover {background: #555;}
 
 .link-ebook {
 	background: #444;
@@ -132,7 +132,7 @@ ul {padding-inline-start: 50px;}
     box-shadow: 0 0px 2px #000;
     border-bottom: solid 1px #000;}
 .link-ebook a {color:#ddd;}
-
+.link-ebook:hover {background: #555;} 
 /* filter */
 #myBtnContainer {margin-bottom: 20px;}
 .btn {border: none;outline: none;cursor: pointer;background: #222;color: #fff;padding: 0.7em;margin: 5px auto;border-radius: 3px;}
