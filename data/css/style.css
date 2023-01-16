@@ -160,9 +160,9 @@ ul {padding-inline-start: 50px;}
 .shiki-card p {padding: 0;text-align: center;}
 
 /* onmyoji global page shiki */
-.onmyoji-c0{background: #c7782c;padding: 0px 8px;border-radius: 2px;display: inline-table;}
-.onmyoji-c1{background: #4a0c19;padding: 0px 8px;border-radius: 2px;display: inline-table;}
-.onmyoji-c2{background: #075390;padding: 0px 8px;border-radius: 2px;display: inline-table;}
+.onmyoji-c0{background: #c7782c;padding: 0px 8px;border-radius: 2px;display: inline-table;margin-right: 7px;}
+.onmyoji-c1{background: #4a0c19;padding: 0px 8px;border-radius: 2px;display: inline-table;margin: 0 5px;}
+.onmyoji-c2{background: #075390;padding: 0px 8px;border-radius: 2px;display: inline-table;margin: 0 5px;}
 .onmyoji-c3{background: #222;padding: 0px 8px;border-radius: 2px;display: inline-table;}
 .onmyoji-box-c1{background: #4a0c19;padding: 20px;}
 .onmyoji-box-c2{background: #075390;padding: 20px;}
