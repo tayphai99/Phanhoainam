@@ -48,7 +48,7 @@ body {
 }
 a {text-decoration: none;color:orange;}
 p {padding: 20px 15px;;margin: 0;}
-h1 {padding:20px 0;margin: 0;}
+h1 {padding:20px 10px;margin: 0;}
 h2 {padding:10px 15px;margin: 0; font-size: 1.2em;}
 .link-ebook h2 {padding:10px 30px;margin: 0; font-size: 1.2em;}
 h2 a {color:#ddd;}
@@ -109,6 +109,7 @@ ul {padding-inline-start: 50px;}
 .card-ebook a {color:#ddd;}
 .card-ebook img { width: 100%;}
 .card-ebook:hover {box-shadow: 0px 0px 15px #111;transition: 0.3s;}
+.card-ebook p {text-align: left;}
 .card-contact {
     margin: 12px; 
     box-shadow: 0 0px 2px #000;
@@ -202,4 +203,6 @@ ul {padding-inline-start: 50px;}
 /* onmyoji global */
 .shiki-card {width: 70px;margin: 10px 5px;color: #fff;font-size:13px;line-height:15px;}
 .onmyoji-style-1 p {padding: 15px;}
+
+ 
 }
