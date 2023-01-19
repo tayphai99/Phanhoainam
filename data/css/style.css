@@ -68,8 +68,7 @@ ul {padding-inline-start: 50px;}
     display: inline-block;
 } 
 .phn-container{
-	padding:30px;
-	margin-bottom:20px;
+	padding:30px; 
 }
 .phn-ta-center{
 	text-align: center;
